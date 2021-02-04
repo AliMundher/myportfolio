@@ -16,3 +16,35 @@
     line-height: 60px;
     color: #c9c9c9;
 }
+
+/* Style Of Bootstrap */
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item.active>.nav-link {
+    background-color: #c9c9c9;
+    color: #fff!important;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: #c9c9c9;
+    transition: all .3s ease-in-out;
+    color: white!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 18px 38px;
+    display: block;
+    width: 78px;
+    text-align: center;
+}
+
+nav {
+    border: 2px solid #cdcdcd;
+    margin-bottom: 10%;
+}

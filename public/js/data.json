@@ -1,0 +1,22 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "icon_name": "icon fa fa-camera",
+            "title": "photograph",
+            "body": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même"
+        },
+        {
+            "id": 2,
+            "icon_name": "icon fa fa-desktop",
+            "title": "graphic designe",
+            "body": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même"
+        },
+        {
+            "id": 3,
+            "icon_name": "icon fa fa-heart",
+            "title": "photograph",
+            "body": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même"
+        }
+    ]
+}
