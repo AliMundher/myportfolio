@@ -13,7 +13,6 @@ function Index() {
         <div className="">
             <About />
             <Services />
-            <CV />
             <MyWork />
             <Footer />
         </div>
