@@ -15,3 +15,40 @@
     color: #777;
     text-align: justify;
 }
+
+.git_hub {
+    margin-bottom: 5%;
+}
+
+.git_hub i, .git_hub a {
+    font-size: 1.3em;
+    color: #777
+}
+
+.git_hub a {
+    font-weight: normal;
+    transition: all .3s ease-in-out;
+    position: relative;
+    display: inline-block;
+}
+
+.git_hub a:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 3px;
+    background-color: #777;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+
+.git_hub a:hover {
+    text-decoration: none;
+    color: #777;
+}
+
+.git_hub a:hover:after {
+    width: 100px
+}

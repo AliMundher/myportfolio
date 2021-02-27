@@ -23,6 +23,20 @@ class App extends React.Component {
         <div className="mundher">
           <h3 className="title">mundher saeed</h3>
           <h4 className="job text-center display-5">junior Web Developer</h4>
+          <div className="socialLink text-center mt-4">
+            <a href="https://www.facebook.com/ali.mundher.927">
+              <i className="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mundher-ali-b65719180/">
+              <i className="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.behance.net/mundersaee8f64">
+              <i className="fa fa-behance" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/mundhersaeed/">
+              <i className="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
 
         <Nav />
@@ -34,7 +48,7 @@ class App extends React.Component {
           <Route path="/mywork" component={MyWork} />
           <Route path="/cv" component={CV} />
         </Container>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter >
     );
   }

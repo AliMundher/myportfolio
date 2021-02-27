@@ -11,7 +11,10 @@ const Footer = () => {
                         <div className="logo_footer my-4">
                             <h3 className="text_logo_footer">m</h3>
                         </div>
-                        <p>Qui y sera Qui y sera Qui y sera Qui y sera Qui y sera Qui y seraQui y sera Qui y sera Qui y sera</p>
+                        <p className="footer-disc">
+                            Le Lorem Ipsum est simplement du faux texte employé dans la composition
+                            et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard
+                        </p>
                     </div>
                     <div className="col-12 col-md-4">
                         <h3 className="text-capitalize text-center my-3 quick">quick link</h3>

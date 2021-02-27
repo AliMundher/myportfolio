@@ -90,3 +90,13 @@
     margin-bottom: 21px;
     font-size: 1.2em;
 }
+
+@media (max-width:767px) {
+    .title_test {
+        position: relative;
+        top: -10px;
+    }
+    .disc_test {
+        width: 100%
+    }
+}

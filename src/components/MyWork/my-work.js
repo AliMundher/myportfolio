@@ -19,7 +19,8 @@ const MyWork = () => {
                 </div>
                 <div className="col-12 col-md-6">
                     <div className="box_work">
-                        <img src="images/two.png" alt="photo" className="img-fluid" />
+                        <img src="images/two.png" alt="" className="img-fluid" />
+
                     </div>
                 </div>
             </div>
@@ -27,7 +28,7 @@ const MyWork = () => {
             <div className="row my-5">
                 <div className="col-12 col-md-6">
                     <div className="box_work">
-                        <img src="images/three.png" alt="photo" className="img-fluid" />
+                        <img src="images/three.png" alt="" className="img-fluid" />
                     </div>
                 </div>
                 <div className="col-12 col-md-6">
@@ -39,6 +40,10 @@ const MyWork = () => {
                     utilisée à titre provisoire pour calibrer une mise en page, le texte définitif
                     venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est </p>
                 </div>
+            </div>
+            <div className="git_hub">
+                <i class="fa fa-github mr-2" aria-hidden="true"></i>
+                <a href="https://github.com/AliMundher" className="text-capitalize">my github</a>
             </div>
         </React.Fragment>
     )

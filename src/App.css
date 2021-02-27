@@ -1,0 +1,11 @@
+.socialLink> a i {
+    margin-right: 10px;
+    color: #c9c9c9;
+    border: 2px solid #c9c9c9;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    cursor: pointer
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Style from "styled-components";
 import "./Nav.css"
 
 const Nav = () => {
@@ -21,7 +20,7 @@ const Nav = () => {
                 <div className="collapse navbar-collapse" id="menu">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <Link to='/about' className="nav-link">about</Link>
+                            <Link to='/about' className="nav-link my-2 my-md-0">about</Link>
                         </li>
                         <li className="nav-item">
                             <Link to='/services' className="nav-link">services</Link>

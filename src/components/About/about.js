@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="row">
             <div className="col-12 col-md-5 text-center mb-5 mb-md-0">
-                <img src="images/mo.jpg" className="img-fluid my_img" alt="photo" />
+                <img src="images/mo.jpg" alt="" className="img-fluid my_img" />
             </div>
             <div className="col-12 col-md-7">
                 <h2 className="text-capitalize about_title">about</h2>
@@ -19,7 +19,7 @@ const About = () => {
                 depuis les années 1500, quand un imprimeur
                 anonyme assembla ensemble des morceaux de texte pour réaliser
                     un livre spécimen de polices de texte.</p>
-                <button className="text-capitalize mt-4 my_read">read more</button>
+                <button className="text-capitalize mt-4 my_read my-2 my-md-0">read more</button>
             </div>
         </div>
     )

@@ -1,34 +1,37 @@
- body {
-   height: 3000px
- }
+.reserved {
+  background-color: #cdcdcd;
+  text-align: center;
+  padding: 20px
+}
 
- .reserved {
-   background-color: #cdcdcd;
-   text-align: center;
-   padding: 20px
- }
+.reserved .title {
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
 
- .reserved .title {
-   text-transform: capitalize;
-   font-size: 1em;
-   font-weight: bold;
-   color: white;
- }
+.mundher {
+  font-family: vortice-concept, sans-serif;
+  font-weight: 400;
+  padding: 50px;
+}
 
- .mundher {
-   font-family: vortice-concept, sans-serif;
-   font-weight: 400;
-   padding: 50px;
- }
+.mundher .title {
+  text-align: center;
+  font-size: 3.3em!important;
+  color: #707070;
+}
 
- .mundher .title {
-   text-align: center;
-   font-size: 3.3em!important;
-   color: #707070;
- }
+.mundher .job {
+  color: #707070;
+  letter-spacing: 5px;
+  font-size: 0.7em;
+}
 
- .mundher .job {
-   color: #707070;
-   letter-spacing: 5px;
-   font-size: 0.7em;
- }
+@media(max-width:767px) {
+  .mundher .title {
+    width: 100%;
+    font-size: 2.3em!important;
+  }
+}
