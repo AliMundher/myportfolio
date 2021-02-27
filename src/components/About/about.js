@@ -4,7 +4,7 @@ import "./about.css"
 
 const About = () => {
     return (
-        <div className="row">
+        <div className="row mbt">
             <div className="col-12 col-md-5 text-center mb-5 mb-md-0">
                 <img src="images/mo.jpg" alt="" className="img-fluid my_img" />
             </div>

@@ -27,7 +27,7 @@ const Services = () => {
         <div>
             <h2 className="text-capitalize text-center serve_title">services</h2>
             <div className="container">
-                <div className="row mt_serve">
+                <div className="row mbt_serv">
                     {result}
                 </div>
                 {/* Start Testmonial */}
