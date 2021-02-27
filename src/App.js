@@ -2,6 +2,7 @@
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Nav from "./components/Nav/navbar";
+import Footer from "./components/Footer/footer";
 import Contact from "./components/Contact/contact";
 import Index from "./components/index";
 import About from "./components/About/about";
@@ -33,6 +34,7 @@ class App extends React.Component {
           <Route path="/mywork" component={MyWork} />
           <Route path="/cv" component={CV} />
         </Container>
+        <Footer />
       </BrowserRouter >
     );
   }

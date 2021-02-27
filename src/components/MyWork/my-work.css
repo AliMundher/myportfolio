@@ -1,0 +1,17 @@
+.my_work_title {
+    color: #c9c9c9;
+    font-size: 1.4em;
+    margin-bottom: 16px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.box_work img {
+    padding: 3px;
+    border: 2px solid #c9c9c9;
+}
+
+.img_disc {
+    color: #777;
+    text-align: justify;
+}

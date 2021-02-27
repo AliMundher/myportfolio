@@ -1,0 +1,52 @@
+.contact {
+    padding: 15px;
+    border: 2px solid #c9c9c9;
+}
+
+.contact h2 {
+    color: #c9c9c9;
+}
+
+.phone {
+    font-size: 1em;
+    color: #777;
+}
+
+.marker {
+    font-size: 7em;
+    color: #c9c9c9;
+    position: relative;
+    top: -43px;
+}
+
+.add_rue {
+    color: #777;
+    font-weight: bold;
+}
+
+.my_input_style {
+    border: 2px solid #c9c9c9!important;
+}
+
+.my_input_style:focus {
+    box-shadow: none!important;
+}
+
+.myTextArea {
+    resize: none;
+    height: 250px
+}
+
+.btn_submit {
+    width: 120px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #c9c9c9;
+    color: #777;
+    font-weight: bold;
+    letter-spacing: 0.8px
+}
+
+.map-col img {
+    border: 2px solid #c9c9c9;
+}

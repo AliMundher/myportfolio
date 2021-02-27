@@ -9,7 +9,7 @@ const Services = () => {
     const [works, setWorks] = useState([]);
     useEffect(() => {
         axios.get("js/data.json").then(res => { setWorks(res.data.services) })
-    }, [works]);
+    }, []);
 
     const r = works.map(i => {
         return (
@@ -29,6 +29,16 @@ const Services = () => {
             <div className="container">
                 <div className="row mt_serve">
                     {r}
+                </div>
+                <h2 className="text-capitalize text-center title_test">testimonial</h2>
+                <div className="testimonial text-center">
+                    <img src="images/mo.jpg" className="img-fluid img_test" alt="photo" />
+                    <p className="disc_test my-3">similaires pour fournir, mettre à jour et améliorer ses services et annonces. Si vous l’acceptez,
+                    nous utiliserons ces données des analyses </p>
+                    <h3 className="text-capitalize text-center name">mohammed ali</h3>
+                    <span className="active"></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
         </div>

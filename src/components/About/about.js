@@ -7,7 +7,6 @@ const About = () => {
         <div className="row">
             <div className="col-12 col-md-5 text-center mb-5 mb-md-0">
                 <img src="images/mo.jpg" className="img-fluid my_img" alt="photo" />
-
             </div>
             <div className="col-12 col-md-7">
                 <h2 className="text-capitalize about_title">about</h2>
